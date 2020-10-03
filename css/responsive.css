@@ -1,0 +1,300 @@
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#logo{
+		width:20%;
+	}
+	
+	.eazibuy-index,.mim-index,.buddyfind-index,.loansense-index{
+		padding-top:20px;
+		margin-right:auto;
+		margin-left:auto;
+		
+	}
+	
+	 .eazibuy-image,.mim-image,.buddyfind-image{
+		 width:400px;
+		 height:400px;
+	 }
+
+	.comments-reply li section{ width:88%}
+	.mim-banner img{
+		object-fit: cover;
+		max-height: 350px;
+	}
+	.sticky,.nav-link{
+		display:none;
+	}
+
+	.work-details h1, h2, h3, h4,p{text-align:left;}
+	
+	.header-container, .container2{
+		width: 100%;
+		float:none;
+	}
+
+	.about-row{
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap:10px;
+		
+	}
+
+}
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#logo{
+		width:25%;
+	}
+
+	.eazibuy-index,.mim-index,.buddyfind-index{
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.eazibuy-image,.mim-image,.buddyfind-image{
+		
+	
+		width:300px;
+		height:300px;
+	}
+	
+	footer[role="footer"]{ padding:30px 0}
+
+	footer[role="footer"] nav{ padding:15px 0}
+
+	main[role="main-inner-wrapper"] .about-content{ padding:5%}
+
+	main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ margin:0 10%}
+
+	section.blog-content figure .post-date{ padding-top:20px; height:100px; width:100px}
+
+	article.contact-header[role="pge-title-content"] p a{padding-right:10px}
+
+	.contat-from-wrapper{ margin-top:10px; padding:0 15px}
+
+	.grid-lod li{ width:100% !important; position:static !important; display:inline-block}
+
+	.grid-lod li img{ width:100%}
+
+	.work-details{ padding:5; margin-top:0}
+
+	.work-details h1, h2, h3, h4,p{text-align:left;}
+	
+	.header-container, .container2,.concept img{
+		width: 100%;
+		float:none;
+	}
+	
+	.mim-banner img{
+		object-fit: cover;
+		max-height: 300px;
+	}
+	.sticky,.nav-link{
+		display:none;
+	}
+
+	.challenge,.interview,.flex,.impact{
+		display:block;
+	}
+
+	.keyfinding{
+		width:100%;
+		margin:0;
+		padding-top:50px;
+	}
+
+	#prototype{
+		width:80%;
+	}
+
+	.about-row{
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap:10px;
+		
+	}
+}
+
+/* xs */
+
+@media (max-width: 767px) {
+
+	.index{
+		grid-template-columns:auto;
+	}
+
+	.eazibuy-image,.mim-image,.buddyfind-image{
+		margin:auto;
+		width:400px;
+		height:400px;
+	}
+	
+	.index-text h2, .index-text p{
+		text-align:center;
+	}
+
+	#width-change{
+		width:100%;		
+	}
+
+	.topnav{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+	}	
+	
+	.topnav a:not(:first-child) {display: none;}
+  	.topnav a.icon {
+    float: right;
+    display: block;
+	}
+
+	.topnav.responsive {position: relative;}
+  	.topnav.responsive .icon {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+	}
+	  
+  	.topnav.responsive a {
+    	float: none;
+    	display: block;
+    	text-align: left;
+	  }
+
+	#logo{
+		width:30%;
+	}
+
+
+	.about-row{
+		display:grid;
+		grid-template-columns: 1fr;
+		grid-gap:10px;
+		
+		
+	}
+	.about-column p{
+		text-align:center;
+	}
+	.about-column img{
+
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+
+	footer[role="footer"]{ padding:40px 0}
+
+	footer[role="footer"] nav{ padding:15px 0}
+
+	main[role="main-inner-wrapper"] .about-content{ padding:5%}
+
+	main[role="main-inner-wrapper"] .thumbnails-pan section figure{ margin-bottom:20px}
+
+	section.blog-content figure .post-date{ padding-top:20px; height:100px; width:100px}
+
+	section.blog-content article{ padding:2% 5%; font-size:18px; line-height:24px;font-family: 'proxima_nova_cn_rgregular';}
+
+	article.contact-header[role="pge-title-content"] p a{ font-size:18px; padding-right:10px}
+
+	.contat-from-wrapper{ margin-top:10px; padding:0 15px}
+
+	.contat-from-wrapper input[type="text"], .contat-from-wrapper input[type="email"]{ margin-bottom:20px}
+
+	.contat-from-wrapper textarea{ margin-top:0}
+
+	.work-details{padding:5; margin-top:0}
+
+	.work-details h1, h2, h3, h4,p{text-align:left;}
+	
+	.header-container, .container2{
+		width: 100%;
+		float:none;
+	}
+
+	.work-images{ margin-top:0}
+
+	.work-images li{ margin-bottom:0; width:100%}
+
+	.work-images li figcaption h2{ font-size:18px;}
+
+	.grid-lod li{ width:100% !important; position:static !important}
+
+	.bog-header h3, .comments-pan h3, .commentys-form h4{ padding-bottom:0}
+
+	.bog-header h2{ font-size:18px; line-height:26px}
+
+	.bog-header{ padding-bottom:20px}
+
+	.blog-details .enter-content{ margin-top:10px}
+
+	.blog-details .enter-content p,.comments-reply li section{ font-size:14px; line-height:26px}
+
+	.comments-pan h3{ padding-bottom:20px; margin-top:0}
+
+	.comments-reply li section{ float:none; width:auto; padding-left:0}
+
+	.comments-reply li figure{ margin-right:20px}
+
+	.reply-pan{ margin-left:20px}
+
+	.commentys-form input[type="text"], .commentys-form input[type="email"], .commentys-form input[type="url"], .commentys-form textarea{ margin-bottom:20px}
+
+	.commentys-form textarea{ margin-top:0; margin-bottom:0}
+
+	.mim-banner img{
+		object-fit: cover;
+		max-height: 200px;
+	}
+	.column img{
+		width:100%;
+		
+	}
+
+	.sticky,.nav-link{
+		display:none;
+	}
+	
+	.row h3{
+		margin:10;
+	}
+
+	/*buddyfind*/
+
+	.challenge,.buddyfind-solution,.interview,.flex,.impact{
+		display:block;
+	}
+
+	.interview img{
+		max-height:500px;;
+	}
+
+	.left,.right,.keyfinding,.concept img{
+		width:100%;
+		margin:0;
+	}
+
+	.keyfinding{
+		padding-top:50px;
+	}
+
+	#prototype{
+		width:70%;
+	}
+
+
+	/*eazibuy*/
+
+	.prompt,.eazibuy-solution,.prompt-overview,.what-if{
+		display:block;
+	}
+
+	.eazibuy-right,.eazibuy-left{
+		width:100%;
+		margin:0;
+	}
+
+
+
+}
