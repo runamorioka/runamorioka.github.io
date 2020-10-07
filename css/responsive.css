@@ -12,7 +12,7 @@
 		
 	}
 	
-	 .eazibuy-image,.mim-image,.buddyfind-image{
+	 .eazibuy-image,.mim-image,.buddyfind-image,.loansense-image{
 		 width:400px;
 		 height:400px;
 	 }
@@ -49,15 +49,16 @@
 		width:25%;
 	}
 
-	.eazibuy-index,.mim-index,.buddyfind-index{
+	.eazibuy-index,.mim-index,.buddyfind-index,.loansense-index{
+		
+		padding-top:0px;
+	}
+	.eazibuy-image,.mim-image,.buddyfind-image,.loansense-image,.index-text{
 		margin-left:auto;
 		margin-right:auto;
-	}
-	.eazibuy-image,.mim-image,.buddyfind-image{
 		
-	
-		width:300px;
-		height:300px;
+		width:350px;
+		height:350px;
 	}
 	
 	footer[role="footer"]{ padding:30px 0}
@@ -125,18 +126,22 @@
 		grid-template-columns:auto;
 	}
 
-	.eazibuy-image,.mim-image,.buddyfind-image{
+	.eazibuy-image,.mim-image,.buddyfind-image,.loansense-image{
 		margin:auto;
 		width:400px;
 		height:400px;
 	}
+
 	
 	.index-text h2, .index-text p{
 		text-align:center;
+		padding:15px;
 	}
 
 	#width-change{
-		width:100%;		
+		
+		width:110%;		
+		text-align:center;
 	}
 
 	.topnav{
@@ -294,6 +299,9 @@
 		width:100%;
 		margin:0;
 	}
+
+	/*loansense*/
+	
 
 
 
