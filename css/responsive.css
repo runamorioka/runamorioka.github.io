@@ -128,19 +128,19 @@
 
 	.eazibuy-image,.mim-image,.buddyfind-image,.loansense-image{
 		margin:auto;
-		width:400px;
-		height:400px;
+		width:350px;
+		height:350px;
 	}
 
 	
 	.index-text h2, .index-text p{
 		text-align:center;
-		padding:15px;
+		padding-left:35px;
+		padding-right:35px;
 	}
 
 	#width-change{
-		
-		width:110%;		
+		width:100%;		
 		text-align:center;
 	}
 
@@ -192,6 +192,7 @@
 	footer[role="footer"]{ padding:40px 0}
 
 	footer[role="footer"] nav{ padding:15px 0}
+	
 
 	main[role="main-inner-wrapper"] .about-content{ padding:5%}
 
@@ -209,7 +210,7 @@
 
 	.contat-from-wrapper textarea{ margin-top:0}
 
-	.work-details{padding:5; margin-top:0}
+	.work-details{padding:2; margin-top:0}
 
 	.work-details h1, h2, h3, h4,p{text-align:left;}
 	
@@ -301,7 +302,7 @@
 	}
 
 	/*loansense*/
-	
+
 
 
 

@@ -304,11 +304,12 @@ main[role="main-home-wrapper"] article b{font-weight: 400;color:#dd7676;}
 
 footer[role="footer"]{ background-color:#FFF; padding-top:100px; padding-bottom:77px}
 
-footer[role="footer"] > h1 a{ margin:0 auto; display:block; max-width:66px;}
+
+footer[role="footer"] img{margin-left:auto;margin-right:auto; max-width:40px;}
 
 footer[role="footer"] nav{ padding-top:37px; padding-bottom:43px}
 
-footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
+footer[role="footer"] nav > ul{ text-align:center; padding:0; margin-left:auto;margin-right:auto;}
 
 footer[role="footer"] nav > ul > li{ display: inline-block; font-size:18px; margin:0 20px}
 
@@ -343,11 +344,6 @@ footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:1
 footer[role="footer"] .next a{color: #000; font-size: 20px;}
 
 footer[role="footer"] .next a:hover{text-decoration:none; color:#fb5353; font-weight: 700px;}
-
-.next{
-	display: block;
-	padding-left:75%;
-}
 
 
 /*===== About ===*/
@@ -696,7 +692,7 @@ text-align:center;
 
 
 /* The Modal (background) */
-.modal {
+.modal{
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */
@@ -708,23 +704,18 @@ text-align:center;
 	overflow: auto; /* Enable scroll if needed */
 	background-color: rgb(0,0,0); /* Fallback color */
 	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	
   }
-  
-  /* Modal Content (image) */
+
   .modal-content {
 	margin: auto;
 	display: block;
 	width: 100%;
-	max-width: 1100px;
+	max-width: 1000px;
+
+	
   }
 
-  .modal-content1 {
-	margin:auto;
-	display: block;
-	width: 100%;
-	max-width: 1100px;
-  }
-  
   /* Caption of Modal Image */
   #caption {
 	margin: auto;
