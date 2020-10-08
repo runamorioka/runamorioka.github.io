@@ -11,6 +11,10 @@
 		margin-left:auto;
 		
 	}
+
+	.processgraphic img{
+		width:90%;
+	}
 	
 	 .eazibuy-image,.mim-image,.buddyfind-image,.loansense-image{
 		 width:400px;
@@ -23,7 +27,7 @@
 		max-height: 350px;
 	}
 	.sticky,.nav-link{
-		display:none;
+		margin-right:3%;
 	}
 
 	.work-details h1, h2, h3, h4,p{text-align:left;}
@@ -47,6 +51,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	#logo{
 		width:25%;
+	}
+
+	.processgraphic img{
+		width:100%;
 	}
 
 	.eazibuy-index,.mim-index,.buddyfind-index,.loansense-index{
@@ -93,7 +101,7 @@
 		max-height: 300px;
 	}
 	.sticky,.nav-link{
-		display:none;
+		margin-right: 3%;
 	}
 
 	.challenge,.interview,.flex,.impact{
@@ -116,11 +124,25 @@
 		grid-gap:10px;
 		
 	}
+
+	.eazibuy-gif img{
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.eazibuy-right img, .eazibuy-left img{
+		display: none;
+	}
 }
 
 /* xs */
 
 @media (max-width: 767px) {
+
+	.processgraphic img{
+		width:100%;
+	}
+
 
 	.index{
 		grid-template-columns:auto;
@@ -261,6 +283,8 @@
 	.sticky,.nav-link{
 		display:none;
 	}
+
+	
 	
 	.row h3{
 		margin:10;
@@ -301,7 +325,21 @@
 		margin:0;
 	}
 
+	.eazibuy-gif img{
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.eazibuy-right img, .eazibuy-left img{
+		display: none;
+	}
+
+	.illustration{display:none;}
 	/*loansense*/
+
+	.loansense-process img{
+		width:100%;
+	}
 
 
 

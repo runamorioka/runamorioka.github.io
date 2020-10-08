@@ -361,6 +361,10 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{font
 
 main[role="main-inner-wrapper"] article[role="pge-title-content"] p {padding-top:30px;}
 
+main[role="main-inner-wrapper"] article[role="pge-title-content"] span {font-weight: 300;}
+
+main[role="main-inner-wrapper"] article[role="pge-title-content"] h4 {line-height:30px;}
+
 main[role="main-inner-wrapper"] .about-content p{ font-size:17px; line-height:30px; color:#FFF; padding-bottom:20px;}
 
 main[role="main-inner-wrapper"] .thumbnails-pan{ padding-top:30px}
@@ -382,6 +386,7 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure{background-color:
 .current-project h4{
 	padding-left: 10px;color:#666666;border-left:3px solid#dd7676; 
 }
+
 
 /*===== Blog ===*/
 
@@ -689,6 +694,9 @@ text-align:center;
 
 .loansense h4{padding-left: 10px;color:#000;border-left:3px solid #2b2bc1;}
 
+.loansense-process img{
+	width:90%;
+}
 
 
 /* The Modal (background) */
