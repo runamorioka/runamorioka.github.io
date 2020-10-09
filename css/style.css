@@ -363,6 +363,8 @@ main[role="main-inner-wrapper"] article[role="pge-title-content"] p {padding-top
 
 main[role="main-inner-wrapper"] article[role="pge-title-content"] span {font-weight: 300;}
 
+main[role="main-inner-wrapper"] article[role="pge-title-content"] b{color:#dd7676; font-weight:200}
+
 main[role="main-inner-wrapper"] article[role="pge-title-content"] h4 {line-height:30px;}
 
 main[role="main-inner-wrapper"] .about-content p{ font-size:17px; line-height:30px; color:#FFF; padding-bottom:20px;}
@@ -377,7 +379,10 @@ main[role="main-inner-wrapper"] .thumbnails-pan section figure{background-color:
 	grid-gap:10px;
 	
 }
-
+.current-project,.spare-time{
+	padding-left:14px;
+	padding-right:14px;
+}
 .about-column img{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);}
 .current-project h3, .spare-time h3{
 	color:#dd7676;
@@ -461,7 +466,7 @@ section.blog-content:hover figure img{ opacity:0.5}
 	padding-top:40px;
 }
 .js-toc-content section{
-	padding-top:100px;
+	padding-top:30px;
 }
 
 .header-container{
@@ -514,7 +519,7 @@ section.blog-content:hover figure img{ opacity:0.5}
 
 .mim-banner img,.card-design img,.filtersort img,.bigpicture img, .favorite img, .todolist img, .dashboard img,.dialpad img, .cardview-before-after img,
 .filter-sorting-before-after img,.final-design img, .userflow img,.buddy-process img,.brainstorm img,.illustration img,.gift img
-,.examplar img,.map img,.loansense-banner img{
+,.examplar img,.map img,.loansense-banner img,.loansense-comparative img,.visual-analysis img{
 	width: 100%;
 	height: auto;	
 }
@@ -719,7 +724,7 @@ text-align:center;
 	margin: auto;
 	display: block;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 1200px;
 
 	
   }

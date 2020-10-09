@@ -43,6 +43,9 @@
 		grid-gap:10px;
 		
 	}
+	.examplar p,.user-journey p,.usability p,.userflow p {
+		text-align:center;
+	}
 
 }
 
@@ -132,6 +135,11 @@
 
 	.eazibuy-right img, .eazibuy-left img{
 		display: none;
+	}
+
+	
+	.examplar p,.user-journey p,.usability p,.userflow p {
+		text-align:center;
 	}
 }
 
@@ -340,6 +348,11 @@
 	.loansense-process img{
 		width:100%;
 	}
+
+	.examplar p,.user-journey p,.usability p,.userflow p {
+		text-align:center;
+	}
+
 
 
 
