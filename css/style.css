@@ -1011,7 +1011,7 @@ figcaption {
   color:black;
 }
 
-#toTop:hover {
+#toTop i:hover {
   color:var(--color-hover);
 }
 
