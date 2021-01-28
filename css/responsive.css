@@ -1,41 +1,32 @@
+
+:root {
+  --width-max: 850px;
+  --margin-colored:70%;
+  --margin-primary:15%;
+  --margin-medium:10%;
+  --margin-small:5%;
+  --margin-xsmall:1%;
+}
 /* md */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-	#logo{
-		width:20%;
-	}
-	
-	.eazibuy-index,.mim-index,.buddyfind-index,.loansense-index{
-		padding-top:20px;
-		margin-right:auto;
-		margin-left:auto;
-		
-	}
 
-	.processgraphic img{
-		width:90%;
-	}
-	
-	 .eazibuy-image,.mim-image,.buddyfind-image,.loansense-image{
-		 width:400px;
-		 height:400px;
-	 }
-
-	.comments-reply li section{ width:88%}
-	.mim-banner img{
-		object-fit: cover;
-		max-height: 350px;
-	}
-	.sticky,.nav-link{
-		margin-right:3%;
-	}
-
-	.work-details h1, h2, h3, h4,p{text-align:left;}
+  #ipd-persona,#ipd-empathy,.concept-collection,#concept-test-graph{
+    width:100%;
+  }
 	
 	.header-container, .container2{
 		width: 100%;
 		float:none;
-	}
+  }
+  .intro {
+    display:block;
+  }
+
+  #me {
+    width:50%;
+  }
+ 
 
 	.about-row{
 		display:grid;
@@ -43,146 +34,165 @@
 		grid-gap:10px;
 		
 	}
-	.examplar p,.user-journey p,.usability p,.userflow p {
-		text-align:center;
-	}
+
 
 }
 
 /* sm */
 
 @media (min-width: 768px) and (max-width: 991px) {
-	#logo{
-		width:25%;
-	}
 
-	.processgraphic img{
-		width:100%;
-	}
 
-	.eazibuy-index,.mim-index,.buddyfind-index,.loansense-index{
-		
-		padding-top:0px;
-	}
-	.eazibuy-image,.mim-image,.buddyfind-image,.loansense-image,.index-text{
-		margin-left:auto;
-		margin-right:auto;
-		
-		width:350px;
-		height:350px;
-	}
-	
-	footer[role="footer"]{ padding:30px 0}
+  #validation-content{
+    padding:var(--margin-small);
+  }
 
-	footer[role="footer"] nav{ padding:15px 0}
+ .buddyfind-image img{
+  object-fit:contain;
+  width:100%;
+  }
 
-	main[role="main-inner-wrapper"] .about-content{ padding:5%}
-
-	main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ margin:0 10%}
-
-	section.blog-content figure .post-date{ padding-top:20px; height:100px; width:100px}
-
-	article.contact-header[role="pge-title-content"] p a{padding-right:10px}
-
-	.contat-from-wrapper{ margin-top:10px; padding:0 15px}
-
-	.grid-lod li{ width:100% !important; position:static !important; display:inline-block}
-
-	.grid-lod li img{ width:100%}
-
-	.work-details{ padding:5; margin-top:0}
-
-	.work-details h1, h2, h3, h4,p{text-align:left;}
-	
-	.header-container, .container2,.concept img{
+  #validation-content{
+    width:100%;
+    text-align:left;
+    padding:var(--margin-medium);
+  } 
+  .overview {
+    display:block;
+  }
+  
+	.header-container, .container2{
 		width: 100%;
 		float:none;
 	}
-	
-	.mim-banner img{
-		object-fit: cover;
-		max-height: 300px;
-	}
-	.sticky,.nav-link{
-		margin-right: 3%;
-	}
 
-	.challenge,.interview,.flex,.impact{
-		display:block;
-	}
 
-	.keyfinding{
-		width:100%;
-		margin:0;
-		padding-top:50px;
-	}
 
-	#prototype{
-		width:80%;
-	}
 
-	.about-row{
-		display:grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap:10px;
-		
-	}
+main[role="main-inner-wrapper"] .about-content{ padding:5%}
 
-	.eazibuy-gif img{
-		margin-left:auto;
-		margin-right:auto;
-	}
+main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ margin:0 10%}
 
-	.eazibuy-right img, .eazibuy-left img{
-		display: none;
-	}
+section.blog-content figure .post-date{ padding-top:20px; height:100px; width:100px}
 
-	
-	.examplar p,.user-journey p,.usability p,.userflow p {
-		text-align:center;
-	}
+article.contact-header[role="pge-title-content"] p a{padding-right:10px}
+
+.contat-from-wrapper{ margin-top:10px; padding:0 15px}
+
+.grid-lod li{ width:100% !important; position:static !important; display:inline-block}
+
+.grid-lod li img{ width:100%}
+
+.mim-image img {
+  width:100%;
+}
+
+.intro {
+  display:block;
+}
+
+.about-row{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:10px;
+  
+}
 }
 
 /* xs */
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
+  :root{
+    --width-max: 750px;
+  }
 
-	.processgraphic img{
-		width:100%;
-	}
+  main[role="main-home-wrapper"] {
+    padding:var(--margin-medium);
+  }
 
+  .index-container {
+    flex-direction:column;
+    
+  }
+  
+  #text-right,#text-left {
+    padding-top: var(--margin-medium);
+    padding-left: 0;
+  }
 
-	.index{
+  .work-details{
+    padding:var(--margin-medium);
+    margin:auto 0;
+  }
+
+  /*ipd*/
+
+  #validation-content{
+    width:var(--margin-colored);
+    margin:0 auto;
+  }
+
+  #ipd-challenge-highlight {
+    padding:var(--margin-medium);
+  }
+
+  .ipd-solution {
+    columns: 1;
+    padding-top:var(--margin-primary);
+  }
+
+  .ipd-quote {
+    width:90%;
+    margin:0 auto;
+  }
+
+  .overview {
+    display:block;
+  }
+
+  .ipd-interview-data,.design-goal-content {
+    padding:var(--margin-small);
+    margin:0 auto;
+    columns:1;
+  }
+
+  .ipd-interview {
+    padding-bottom:var(--margin-medium);
+  }
+
+  .index{
 		grid-template-columns:auto;
-	}
+  }
+  
+/*buddyfind*/
 
-	.eazibuy-image,.mim-image,.buddyfind-image,.loansense-image{
-		margin:auto;
-		width:350px;
-		height:350px;
-	}
+ .gif{
+  padding-top:var(--margin-medium);
+  padding-bottom:var(--margin-primary);
+  margin:0 auto;
+ }
 
-	
-	.index-text h2, .index-text p{
-		text-align:center;
-		padding-left:35px;
-		padding-right:35px;
-	}
+ .buddyfind-solution{
+   flex-direction: column;
+ }
 
-	#width-change{
-		width:100%;		
-		text-align:center;
-	}
+ #reverse{
+   flex-direction: column-reverse;
+ }
 
-	.topnav{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
-	}	
-	
-	.topnav a:not(:first-child) {display: none;}
-  	.topnav a.icon {
-    float: right;
-    display: block;
-	}
+ .left,.right{
+   margin:0;
+ }
+
+ #buddy-quote {
+   width:100%;
+   text-align:center;
+ }
+
+ .impact {
+   display:block;
+ }
+
 
 	.topnav.responsive {position: relative;}
   	.topnav.responsive .icon {
@@ -191,38 +201,37 @@
     	top: 0;
 	}
 	  
-  	.topnav.responsive a {
-    	float: none;
-    	display: block;
-    	text-align: left;
-	  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 
-	#logo{
-		width:30%;
-	}
+ .about-content {
+   padding:var(--margin-medium);
+ }
 
+  .intro {
+    display:block;
+  }
 
 	.about-row{
 		display:grid;
 		grid-template-columns: 1fr;
 		grid-gap:10px;
 		
-		
 	}
 	.about-column p{
 		text-align:center;
-	}
+  }
+  
 	.about-column img{
-
 		margin-left:auto;
 		margin-right:auto;
-	}
+  } 
+  
 
-
-	footer[role="footer"]{ padding:40px 0}
-
-	footer[role="footer"] nav{ padding:15px 0}
-	
+/* 	
 
 	main[role="main-inner-wrapper"] .about-content{ padding:5%}
 
@@ -238,46 +247,13 @@
 
 	.contat-from-wrapper input[type="text"], .contat-from-wrapper input[type="email"]{ margin-bottom:20px}
 
-	.contat-from-wrapper textarea{ margin-top:0}
+	.contat-from-wrapper textarea{ margin-top:0} */
 
-	.work-details{padding:2; margin-top:0}
-
-	.work-details h1, h2, h3, h4,p{text-align:left;}
 	
 	.header-container, .container2{
 		width: 100%;
 		float:none;
 	}
-
-	.work-images{ margin-top:0}
-
-	.work-images li{ margin-bottom:0; width:100%}
-
-	.work-images li figcaption h2{ font-size:18px;}
-
-	.grid-lod li{ width:100% !important; position:static !important}
-
-	.bog-header h3, .comments-pan h3, .commentys-form h4{ padding-bottom:0}
-
-	.bog-header h2{ font-size:18px; line-height:26px}
-
-	.bog-header{ padding-bottom:20px}
-
-	.blog-details .enter-content{ margin-top:10px}
-
-	.blog-details .enter-content p,.comments-reply li section{ font-size:14px; line-height:26px}
-
-	.comments-pan h3{ padding-bottom:20px; margin-top:0}
-
-	.comments-reply li section{ float:none; width:auto; padding-left:0}
-
-	.comments-reply li figure{ margin-right:20px}
-
-	.reply-pan{ margin-left:20px}
-
-	.commentys-form input[type="text"], .commentys-form input[type="email"], .commentys-form input[type="url"], .commentys-form textarea{ margin-bottom:20px}
-
-	.commentys-form textarea{ margin-top:0; margin-bottom:0}
 
 	.mim-banner img{
 		object-fit: cover;
@@ -291,70 +267,64 @@
 	.sticky,.nav-link{
 		display:none;
 	}
-
 	
 	
 	.row h3{
 		margin:10;
 	}
 
-	/*buddyfind*/
-
-	.challenge,.buddyfind-solution,.interview,.flex,.impact{
-		display:block;
-	}
-
 	.interview img{
 		max-height:500px;;
 	}
 
-	.left,.right,.keyfinding,.concept img{
-		width:100%;
-		margin:0;
-	}
+	.flex {
+    display:block;
+  }
 
-	.keyfinding{
-		padding-top:50px;
-	}
+  #brainstorm {
+    padding-bottom:var(--margin-small);
+  }
 
-	#prototype{
-		width:70%;
-	}
+  .eazibuy-solution{
+    flex-direction:column;
+  }
 
+  .eazibuy-gif {
+    margin:0 auto;
+    padding-bottom:var(--margin-medium);
+  }
 
-	/*eazibuy*/
-
-	.prompt,.eazibuy-solution,.prompt-overview,.what-if{
+	.prompt,.prompt-overview,.what-if{
 		display:block;
-	}
-
-	.eazibuy-right,.eazibuy-left{
-		width:100%;
-		margin:0;
-	}
-
-	.eazibuy-gif img{
-		margin-left:auto;
-		margin-right:auto;
-	}
-
-	.eazibuy-right img, .eazibuy-left img{
-		display: none;
-	}
-
-	.illustration{display:none;}
-	/*loansense*/
-
-	.loansense-process img{
-		width:100%;
 	}
 
 	.examplar p,.user-journey p,.usability p,.userflow p {
 		text-align:center;
-	}
+  }
+  
+}
 
+@media (min-width:1199px) {
 
+  #ipd-challenge-highlight h2{
+    width:70%;
+  }
 
+  .ipd-solution-overview,#ipd-persona,#ipd-empathy,.concept-collection,#concept-test-graph{   
+   padding:var(--margin-medium);
+  }
+  #ipd-solution-image {
+    padding-right:var(--margin-primary);
+  }
+  #app-design,#examplar{
+    max-width: 1000px;
+  }
 
+  /*eazibuy*/
+  .user-journey img{
+    padding-left:var(--margin-primary);
+    padding-right:var(--margin-primary);
+  }
+ 
 
 }
