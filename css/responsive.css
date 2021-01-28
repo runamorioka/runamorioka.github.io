@@ -10,6 +10,9 @@
 /* md */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  .work-details h1, h3, h4, h5, p{
+    text-align:left;
+  }
 
   #ipd-persona,#ipd-empathy,.concept-collection,#concept-test-graph{
     width:100%;
@@ -42,6 +45,14 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 
+  .work-details {
+    padding:var(--margin-medium);
+    margin:auto 0;
+  }
+
+  .work-details h1, h3, h4, h5, p{
+    text-align:left;
+  }
 
   #validation-content{
     padding:var(--margin-small);
@@ -104,6 +115,10 @@ article.contact-header[role="pge-title-content"] p a{padding-right:10px}
 @media (max-width:767px) {
   :root{
     --width-max: 750px;
+  }
+
+  .work-details h1, h3, h4, h5, p{
+    text-align:left;
   }
 
   main[role="main-home-wrapper"] {
