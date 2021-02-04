@@ -146,12 +146,19 @@ article.contact-header[role="pge-title-content"] p a{padding-right:10px}
     --width-max: 750px;
   } */
 
+
   .work-details h1, h3, h4, h5, p{
     text-align:left;
   }
 
   main[role="main-home-wrapper"] {
     padding:var(--margin-medium);
+  
+  }
+
+  main[role="main-home-wrapper"] h1{
+    line-height:var(--margin-primary);
+  
   }
 
   .index-container {
