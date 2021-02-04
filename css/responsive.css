@@ -157,8 +157,7 @@ article.contact-header[role="pge-title-content"] p a{padding-right:10px}
   }
 
   main[role="main-home-wrapper"] h1{
-    line-height:var(--margin-primary);
-  
+    line-height:80px;
   }
 
   .index-container {
