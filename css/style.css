@@ -20,7 +20,7 @@
   --color-mim-light:#ffc7c6;
   --color-mim-bg:#f3f3f3;
   --color-mim-secondary:#ececec;
-  --typeface-title: 'Libre Baskerville',sans-serif;
+  --typeface-title: 'Playfair Display',serif;
   --typeface-text: 'Lato', sans-serif;
   --width-max: 900px;
   --margin-colored:65%;
@@ -193,6 +193,7 @@ header {
 color: #dd7676;
 text-decoration: underline;
 cursor:pointer;
+
 }
 
 .topnav .icon {
@@ -258,11 +259,11 @@ span {
 h1 {
   font-family: var(--typeface-title);
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 48px;
 }
 
-h2{
+h2 {
   text-align:center;
   width:100%;
   margin:0 auto;
@@ -384,50 +385,54 @@ line-height:0px;
 font-family: var(--typeface-title);
 font-weight:500;
 font-size:30px;
+
 }
 
-.index-text h5{
+.index-text h5 {
 width: -webkit-fit-content;
 width: -moz-fit-content;
 width: fit-content;
 padding: 5px 10px;
 border-radius: 28px;
 margin-right: 10px;
+
 }
 
-.index-text p{
+.index-text p {
 	color:#8f8e8e;
 	font-size:20px;
 	line-height:35px;
 }
 
-.work-details h2,h3,h4,h5,p,figcaption{
+.work-details h2,h3,h4,h5,p,figcaption {
   font-family: var(--typeface-text);
 }
-.work-details h1,h2,h3{
+
+.work-details h1,h2,h3 {
   color:var(--color-text);
 }
 
-.work-details h1{ 
+.work-details h1 { 
   font-size: 35px;
   line-height:40px;
   font-weight:500;
 }
-.work-details h2{
+.work-details h2 {
   font-weight:500;
   font-size:30px;
   line-height:50px;
 }
-.work-details h3{
+.work-details h3 {
   font-size:25px;
   font-weight:700;
 }
+
 .work-details h4 {
   font-size: 20px;
   line-height:50px;
 }
 
-.work-details{
+#width-change {
   padding-top:var(--margin-small);
   max-width:var(--width-max);
   margin:0 auto;
@@ -438,17 +443,11 @@ margin-right: 10px;
   margin:0 auto;
 }
 
-.design-content {
-  padding-bottom:var(--margin-large);
+/*==IPD Project ==*/
+.challenge-overview {
+  padding-bottom: var(--margin-small);
 }
 
-/*==IPD Project ==*/
-.ipd {
-  padding-top:var(--margin-medium);
-}
-.ipd-research {
-  padding-top:var(--margin-medium);
-}
 .project-overview span {
   font-size:25px;
   background:none;
@@ -456,7 +455,8 @@ margin-right: 10px;
   line-height:40px;
   color:#404040;
 }
-#ipd-head-overview strong,.ipd h4{
+
+ #ipd-head-overview strong,.ipd h4 {
   color:var(--color-ipd-primary);
 }
 
@@ -465,58 +465,51 @@ margin-right: 10px;
   line-height:40px;
 }
 
-.overview{
+.overview {
   display:flex;
   justify-content: space-between;
 }
 
-/* .role{
-  padding-left:50px;
-} */
-
-.solution {
-  padding-bottom: 50px;
+.role {
+  padding-left:var(--margin-small);
 }
 
-#solution-number{
+
+#solution-number {
   color:var(--color-ipd-light);
   font-size:80px;
   font-family: var(--typeface-text);
   line-height:0px;
   font-weight:900;
 }
-.ipd h3{
+
+.ipd h3 {
   line-height:40px;
 }
 
-#ipd-challenge-highlight{
+#ipd-challenge-highlight {
   padding: var(--margin-small);
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
   background: var(--color-ipd-bg);
   max-height:800px;
 }
-.ipd-solution{
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  padding: var(--margin-primary);
-  columns:500px 2;
+
+.ipd-solution {
+  padding: var(--margin-medium);
+  columns:300px 2;
 }
 
-.ipd-solution-overview{
+.ipd-solution-overview {
   padding-right:50px;
 }
 
-.ipd-image img{
+.ipd-image img {
   width:100%;
   border-radius: 10px;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-.pal-image{
+.pal-image {
   padding:var(--margin-small);
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
   background: var(--color-ipd-bg);
   max-height:1000px;
 }
@@ -545,17 +538,13 @@ margin-right: 10px;
   padding-bottom:100px;
 }
 
-#ipd-persona,#ipd-empathy,.concept-collection,.quote{
+#ipd-persona,#ipd-empathy,.concept-collection{
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  margin-left: calc(-50vw + 50%)
 }
 
-#ipd-process {
-  margin:auto 0;
-
-}
-#maria{
-  width:60%;
+#maria,#empathy-map{
+  width:50%;
   margin:0 auto;
 }
 
@@ -584,10 +573,11 @@ figcaption {
   padding-top:50px;
 }
 
-#empathy-map {
+/* #empathy-map {
   width:70%;
   margin:0 auto;
-}
+} */
+
 .concept-collection {
   display:flex;
   
@@ -613,8 +603,8 @@ figcaption {
 }
 
 #validation{
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  /* width: 100vw;
+  margin-left: calc(-50vw + 50%); */
   background: var(--color-ipd-bg);
 }
 
@@ -676,10 +666,6 @@ figcaption {
 
 /*== MIM Project ==*/
 
-.mim {
-  padding-top:var(--margin-medium);
-}
-
 .mim h4 strong, #reflection {
   color: var(--color-mim-primary);
 }
@@ -723,12 +709,12 @@ figcaption {
 
 
 .dash-board-redesign {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
   background-color:var(--color-mim-bg) ;
 }
 
-#validation-content,.reflection-content {
+#validation-content {
+  padding-top:var(--margin-small);
+  padding-bottom:var(--margin-small);
   width:var(--width-max);
   margin:0 auto;
  
@@ -759,6 +745,11 @@ figcaption {
 
 
 /*== buddyfind ==*/
+
+/* .buddyfind h1, h2, h3, h4,h5, p{
+  text-align: left;
+} */
+
 .buddyfind-image img {
   width:100%;
   margin:auto 0;
@@ -768,20 +759,15 @@ figcaption {
 .buddyfind i {
   color: var(--color-buddy-primary);
 }
-.buddyfind {
-  padding-top:var(--margin-medium);
-}
 
 .buddyfind-research-content{
-  padding-bottom:100px;
+  /* padding-bottom:100px; */
 }
 
 #buddyfind-challenge-highlight{
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
   background: var(--color-buddy-bg);
   max-height:800px;
-  padding:80px;
+  padding:var(--margin-small);
 }
 
 #buddyfind-interview {
@@ -863,8 +849,6 @@ figcaption {
 }
 
 #buddyfind-validation{
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
   background: var(--color-buddy-bg);
   padding:var(--margin-small);
   height:auto;
@@ -876,7 +860,7 @@ figcaption {
 }
 
 #buddy-process {
-  padding-bottom:var(--margin-primary);
+  width:120%;
 }
 
 .final-design img{
@@ -920,17 +904,11 @@ figcaption {
   display:flex;
 }
 
-.eazibuy {
-  padding-top:var(--margin-medium);
-}
-
 .eazibuy i{
   color:var(--color-eazibuy-primary);
 }
 #eazibuy-challenge-highlight {
-  padding: var(--margin-medium);
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  padding: var(--margin-small);
   background: var(--color-eazibuy-bg);
   max-height:800px;
 }
@@ -983,8 +961,6 @@ figcaption {
 }
 
 #eazibuy-validation{
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
   background: var(--color-eazibuy-bg);
   padding:var(--margin-small);
   height:auto;
