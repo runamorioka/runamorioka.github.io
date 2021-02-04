@@ -1088,17 +1088,17 @@ padding-left:var(--margin-medium); */
 
 }
 main[role="main-inner-wrapper"] .intro img {
-  width:120%;
+  /* width:120%; */
   padding-top:var(--margin-large);
-  
-
 }
+
 main[role="main-inner-wrapper"] article[role="pge-title-content"] {
   padding-right:var(--margin-small);
 }
+
 main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span{background:none; display:block; line-height: 60px;font-size:50px; color:#dd7676; padding-bottom:5px;font-weight:800;}
 
-main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{font-size:25px; font-weight:700px;}
+main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2{font-size:25px; font-weight:700px; line-height: 50px;}
 
 main[role="main-inner-wrapper"] article[role="pge-title-content"] p {padding-top:30px;}
 

@@ -33,14 +33,13 @@
 		width: 100%;
 		float:none;
   }
-  .intro {
-    display:block;
-  }
 
   #me {
-    width:50%;
+    width:150%;
+    margin-top:50%;
+    /* border:solid black 3px; */
   }
- 
+  
 
 	.about-row{
 		display:grid;
@@ -59,11 +58,6 @@
 /* sm */
 
 @media (min-width: 768px) and (max-width: 991px) {
-
-  main [role="main-home-wrapper"] {
-    padding:var(--margin-medium);
-
-  }
 
 
   #width-change {
@@ -105,38 +99,40 @@
   #buddy-process {
     width:100%;
   }
-  
 
+  main[role="main-inner-wrapper"] .about-content{ padding:5%}
 
+  main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ margin:0 10%}
 
-main[role="main-inner-wrapper"] .about-content{ padding:5%}
+  section.blog-content figure .post-date{ padding-top:20px; height:100px; width:100px}
 
-main[role="main-inner-wrapper"] .thumbnails-pan section figure figcaption{ margin:0 10%}
+  article.contact-header[role="pge-title-content"] p a{padding-right:10px}
 
-section.blog-content figure .post-date{ padding-top:20px; height:100px; width:100px}
+  .contat-from-wrapper{ margin-top:10px; padding:0 15px}
 
-article.contact-header[role="pge-title-content"] p a{padding-right:10px}
+  .grid-lod li{ width:100% !important; position:static !important; display:inline-block}
 
-.contat-from-wrapper{ margin-top:10px; padding:0 15px}
+  .grid-lod li img{ width:100%}
 
-.grid-lod li{ width:100% !important; position:static !important; display:inline-block}
+  .mim-image img {
+    width:100%;
+  }
 
-.grid-lod li img{ width:100%}
+  .intro {
+    display:block;
+  }
 
-.mim-image img {
-  width:100%;
-}
+  .about-row{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:10px;
+    
+  }
+  #me {
+    width:100%;
+  }
+ 
 
-.intro {
-  display:block;
-}
-
-.about-row{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap:10px;
-  
-}
 }
 
 /* xs */
@@ -157,7 +153,7 @@ article.contact-header[role="pge-title-content"] p a{padding-right:10px}
   }
 
   main[role="main-home-wrapper"] h1{
-    line-height:80px;
+    line-height:50px;
   }
 
   .index-container {
@@ -361,6 +357,11 @@ article.contact-header[role="pge-title-content"] p a{padding-right:10px}
 	.examplar p,.user-journey p,.usability p,.userflow p {
 		text-align:center;
   }
+
+  #me {
+    width:100%;
+  }
+ 
   
 }
 
@@ -385,6 +386,10 @@ article.contact-header[role="pge-title-content"] p a{padding-right:10px}
     padding-left:var(--margin-primary);
     padding-right:var(--margin-primary);
   }
- 
+
+  #me {
+    width:100%;
+    /* border:solid black 3px; */
+  }
 
 }
