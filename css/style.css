@@ -27,6 +27,7 @@
   --margin-footer:30%;
   --margin-primary: 15%;
   --margin-large: 20%;
+  --margin-xlarge:25%;
   --margin-medium:10%;
   --margin-small:5%;
   --margin-xsmall:1%;
@@ -256,12 +257,12 @@ span {
   padding-bottom: 150px;
 }
 
-h1 {
+/* h1 {
   font-family: var(--typeface-title);
   line-height: 20px;
   font-weight: 800;
   font-size: 48px;
-}
+} */
 
 h2 {
   text-align:center;
@@ -315,6 +316,10 @@ p {
           transform: scale(1.05);
 }
 
+#index-width-change {
+  padding-left:var(--margin-xlarge);
+  padding-right:var(--margin-xlarge);
+}
 .view-case-study {
   margin-top: var(--margin-primary);
 
@@ -363,6 +368,7 @@ p {
 .underline { 
   width:10%;
   border-top: 1px solid #404040 ;
+  margin:0;
 }
 .underline2 {
   border-top: 1px solid lightgrey ;
@@ -381,7 +387,6 @@ p {
 
 .index-text h1 {
 color:inherit;
-line-height:0px;
 font-family: var(--typeface-title);
 font-weight:500;
 font-size:30px;
@@ -1061,6 +1066,7 @@ footer[role="footer"] .copy-right{ padding-bottom: var(--margin-xsmall); text-al
   margin-right:var(--margin-footer);
 }
 #footer-next {
+  font-family: var(--typeface-title);
   font-size:30px;
   font-weight:300;
 }
