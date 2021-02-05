@@ -157,6 +157,7 @@
 
 
   #index-width-change {
+    padding-top:var(--margin-large);
     padding-left:var(--margin-small);
     padding-right:var(--margin-small);
   }

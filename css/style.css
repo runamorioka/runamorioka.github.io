@@ -257,12 +257,12 @@ span {
   padding-bottom: 150px;
 }
 
-/* h1 {
+h1 {
   font-family: var(--typeface-title);
   line-height: 20px;
   font-weight: 800;
   font-size: 48px;
-} */
+}
 
 h2 {
   text-align:center;
