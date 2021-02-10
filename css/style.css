@@ -317,8 +317,8 @@ p {
 }
 
 #index-width-change {
-  padding-left:var(--margin-xlarge);
-  padding-right:var(--margin-xlarge);
+  padding-left:var(--margin-large);
+  padding-right:var(--margin-large);
 }
 .view-case-study {
   margin-top: var(--margin-primary);
