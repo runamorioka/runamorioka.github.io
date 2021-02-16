@@ -143,6 +143,17 @@
   #me {
     width:100%;
   }
+
+  .wish-flex {
+    columns:1;
+  }
+
+  .wish-flex p{
+    padding-top: var(--margin-medium);
+  }
+  .wish-flex image {
+    margin:0 auto;
+  }
  
 
 }
@@ -379,6 +390,18 @@
 
   #me {
     width:100%;
+  }
+
+  .wish-flex {
+    columns:1;
+  }
+
+  .wish-flex p{
+    padding-top: var(--margin-medium);
+  }
+
+  .wish-flex image {
+    margin: auto 0;
   }
  
   

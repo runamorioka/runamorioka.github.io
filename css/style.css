@@ -20,6 +20,9 @@
   --color-mim-light:#ffc7c6;
   --color-mim-bg:#f3f3f3;
   --color-mim-secondary:#ececec;
+  --color-wish-primary: #2eb7ec;
+  --color-wish-secondary: #f4f8fc;
+  --color-wish-light:#d1f0fd;
   --typeface-title: 'Playfair Display',serif;
   --typeface-text: 'Lato', sans-serif;
   --width-max: 900px;
@@ -316,10 +319,16 @@ p {
           transform: scale(1.05);
 }
 
-#index-width-change {
+#index-width-change,#side-width-change {
   padding-left:var(--margin-large);
   padding-right:var(--margin-large);
 }
+
+#side-width-change{
+  padding-top:var(--margin-medium);
+
+}
+
 .view-case-study {
   margin-top: var(--margin-primary);
 
@@ -365,6 +374,9 @@ p {
   background-image: linear-gradient(120deg, var(--color-mim-light) 0%, var(--color-mim-secondary) 100%);
 }
 
+#wish-view {
+  background-image: linear-gradient(120deg, var(--color-wish-light) 0%, var(--color-wish-light) 100%);
+}
 .underline { 
   width:10%;
   border-top: 1px solid #404040 ;
@@ -975,6 +987,60 @@ figcaption {
 	color:#4C80D7;
 }
 
+/*== Wish Design Challenge ==*/
+#wish-head-overview strong {
+  color: var(--color-wish-primary);
+}
+.wish-image img{
+  padding-left:var(--margin-medium);
+  padding-right:var(--margin-medium);
+  width:100%;
+  margin: 0 auto;
+}
+.wish h4,#wish-h3 {
+  color: var(--color-wish-primary);
+}
+#wish-sketch{
+  margin: 0 auto;
+  width:70%;
+}
+#wish-wireframe {
+  width:80%; 
+  margin: 0 auto;
+}
+
+#wish-high-fid {
+  width: 80%;
+  margin: 0 auto;
+}
+#wish-gif{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.wish-flex {
+  columns:2;
+  column-gap: var(--margin-primary);
+}
+#wish-goal-number{
+  color:var(--color-wish-primary);
+  font-size:40px;
+  font-family: var(--typeface-text);
+  font-weight:900;
+}
+.design-goal-content{
+  columns: 400px 2;
+}
+
+#wish-challenge-highlight {
+  padding: var(--margin-small);
+  background: var(--color-wish-secondary);
+  max-height:800px;
+}
+
+#wish-challenge-highlight h2 {
+  width:70%;
+}
 
 /*== Top ==*/
 #toTop{
@@ -1051,6 +1117,9 @@ footer[role="footer"] .copy-right{ padding-bottom: var(--margin-xsmall); text-al
   background-image: url(../images/mim/footer.png);
 }
 
+#wish-footer {
+  background-image: url(../images/side/wish-footer.png);
+}
 .footer-nav{
   position:absolute;
   bottom:10px;
