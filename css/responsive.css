@@ -46,6 +46,10 @@
     margin-top:50%;
     /* border:solid black 3px; */
   }
+
+  #wish-gif {
+    margin:0 auto;
+  }
   
 
 	.about-row{
@@ -151,7 +155,7 @@
   .wish-flex p{
     padding-top: var(--margin-medium);
   }
-  .wish-flex image {
+  #wish-gif {
     margin:0 auto;
   }
  
@@ -400,8 +404,8 @@
     padding-top: var(--margin-medium);
   }
 
-  .wish-flex image {
-    margin: auto 0;
+  #wish-gif {
+    width:100%;
   }
  
   
